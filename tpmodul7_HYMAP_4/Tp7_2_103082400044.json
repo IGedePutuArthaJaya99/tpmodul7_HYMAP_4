@@ -1,0 +1,36 @@
+﻿{
+  "courses": [
+    {
+      "code": "CCK2IAB3",
+      "name": "Dasar Jaringan Komputer"
+    },
+    {
+      "code": "CCK2HAB4",
+      "name": "Basis Data"
+    },
+    {
+      "code": "CCK2GAB3",
+      "name": "Interaksi Manusia dan Komputer"
+    },
+    {
+      "code": "CCK2LAB3",
+      "name": "Kecerdasan Buatan"
+    },
+    {
+      "code": "CCK2KAB4",
+      "name": "Konstruksi Perangkat Lunak"
+    },
+    {
+      "code": "UBKXCCB2",
+      "name": "Bahasa Indonesia"
+    },
+    {
+      "code": "CCK3JAB2",
+      "name": "Bahasa Inggris"
+    },
+    {
+      "code": "CCK2JAC2",
+      "name": "Proyek Tingkat II"
+    }
+  ]
+}
