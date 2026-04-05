@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text.Json;
 
-public class DataMahasiswa103082400036
+public class DataMahasiswa103082400044
 {
     // Properti ini harus sama persis namanya dengan yang ada di file JSON
     public Nama nama { get; set; }
@@ -20,13 +20,13 @@ public class DataMahasiswa103082400036
     public void ReadJSON()
     {
         // 1. Menentukan nama file yang mau dibaca
-        string filePath = "Tp7_103082400036.json";
+        string filePath = "Tp7_103082400044.json";
 
         // 2. Membaca seluruh teks di dalam file
         string jsonString = File.ReadAllText(filePath);
 
         // 3. Mengubah teks JSON menjadi object C# (Deserialisasi)
-        DataMahasiswa103082400036 data = JsonSerializer.Deserialize<DataMahasiswa103082400036>(jsonString);
+        DataMahasiswa103082400044 data = JsonSerializer.Deserialize<DataMahasiswa103082400044>(jsonString);
 
         // 4. Mencetak ke layar
         Console.WriteLine($"Nama {data.nama.depan} {data.nama.belakang} dengan nim {data.nim} dari fakultas {data.fakultas}");
