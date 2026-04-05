@@ -29,6 +29,8 @@ public class DataMahasiswa103082400044
         DataMahasiswa103082400044 data = JsonSerializer.Deserialize<DataMahasiswa103082400044>(jsonString);
 
         // 4. Mencetak ke layar
-        Console.WriteLine($"Nama {data.nama.depan} {data.nama.belakang} dengan nim {data.nim} dari fakultas {data.fakultas}");
+        Console.WriteLine($"Nama {data.nama.depan} {data.nama.belakang} " +
+                          $"dengan NIM: {data.nim} " +
+                          $"dari Fakultas {data.fakultas}");
     }
 }
